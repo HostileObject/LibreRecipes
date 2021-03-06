@@ -1,0 +1,52 @@
+:root {
+	--primary-color: #fad02c;
+	--secondary-color: #90adc6;
+	--dark-color: #333652;
+	--bright-color: #e9eaec;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+.header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 15px 25px;
+	background-color: var(--dark-color);
+}
+
+.main {
+	height: 100%;
+}
+
+.section {
+	height: 100%;
+	width: 75%;
+	margin: auto;
+}
+
+.section-paragraph {
+	font-size: 1em;
+	margin: 25px;
+}
+
+.footer {
+	padding: 15px;
+	background-color: var(--dark-color);
+}
+
+@media (min-width: 768px) {
+	.column {
+		float: left;
+	}
+	.column-60 {
+		width: 60%;
+	}
+	.column-40 {
+		width: 40%;
+	}
+}
