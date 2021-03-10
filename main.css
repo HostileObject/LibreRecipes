@@ -1,4 +1,5 @@
-/* website's color palette */
+/* website's color palette and font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 :root {
 	--primary-color: #fad02c;
 	--secondary-color: #90adc6;
@@ -10,6 +11,7 @@ body,
 html {
 	height: 100%;
 	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 /* Navbar */
 .header {
@@ -19,6 +21,8 @@ html {
 	right: 0;
 	padding: 15px 25px;
 	background-color: var(--dark-color);
+	font-weight: bold;
+	font-size: 15px;
 }
 
 .nav-links {
@@ -41,7 +45,7 @@ a:hover {
 	color: var(--primary-color);
 }
 
-a .active {
+.active {
 	border-bottom: 1px solid var(--primary-color);
 }
 
